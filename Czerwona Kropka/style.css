@@ -1,0 +1,36 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: url(http://subtlepatterns.com/images/transp_bg.png);
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #039be5;
+	border-bottom: 1px solid #e8e8e8;
+	height: 60px;
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px; 
+	color: #F9C554;
+	font-family: cursive;
+}
+canvas
+{
+	margin-top: 100px; 
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	height: auto;
+	width: auto;
+	border: 1px solid #f1f1f1;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+}
