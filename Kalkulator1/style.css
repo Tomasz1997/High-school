@@ -1,0 +1,101 @@
+html
+{
+	background-image: url('background.png');
+	
+	margin: 0;
+	padding: 0;
+
+	color: #5bc0de;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: Arial;
+	
+}
+header
+{
+	background: #fff;
+	border-bottom: 1px solid #e8e8e8;
+
+	height: 60px;
+	width: 100%;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin:0;
+    padding: 0;
+	
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #888888;
+
+}
+article
+{
+	background: white;
+	border: 1px solid #e8e8e8;
+	border-radius: 2px;
+	box-shadow: 10px 10px 5px #888888;
+
+	height: 500px;
+	width: 400px;
+
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+input
+{
+	background: #f1f1f1;
+	border: 3px solid #ccc;
+	border-radius: 2px;
+
+	height: 50px;
+	width: 334px;
+
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 22px;
+	padding-right: 10px;
+
+	text-align: right;
+	font-size: 25px;
+	font-weight: bold;
+}
+#przyciski>div
+{
+	background-color: #5bc0de;
+    border: 3px solid #46b8da;
+    border-radius: 2px;
+
+    height: 46.75px;
+	width: 62.75px;
+
+	float: left;
+	margin-left: 25px;
+	margin-top: 12px;
+
+	padding-top: 15.75px;
+	text-align: center;
+	vertical-align: middle;
+	
+
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
+    color: white;
+}
+#przycisk:hover
+{
+	color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+div#przyciski>.duzy
+{
+	width: 156.5px;
+}
